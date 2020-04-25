@@ -1,6 +1,5 @@
-﻿# SEIR-model-Stockholm
-Skattning av peakdag och antal infekterade i covid-19-utbrottet i Stockholms län februari-april 2020.
+﻿# SEIR-model-Stockholm-IJulia
+En översättning av Folkhälsomyndighetens simulering till Julia. Varför? Jo, för att Julia-koden är ca. **300 gånger snabbare** än R-koden. Översättningen är inte nödvändigtvis korrekt, så användning sker på egen risk.
 
-Rapport: https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/analys-och-prognoser/
-
-English version of the report will be available soon.
+Baserat på: https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/analys-och-prognoser/
+och https://github.com/FohmAnalys/SEIR-model-Stockholm
