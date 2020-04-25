@@ -1,5 +1,7 @@
 ﻿# SEIR-model-Stockholm-IJulia
-En översättning av Folkhälsomyndighetens simulering till Julia. Varför? Jo, för att Julia-koden är ca. **300 gånger snabbare** än R-koden. Översättningen är inte nödvändigtvis korrekt, så användning sker på egen risk.
+ [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/oskarr/SEIR-model-Stockholm-IJulia/master?filepath=Julia-Translation.ipynb) ![Coverage 52%](https://img.shields.io/badge/coverage-52%25-yellow)
+ 
+En översättning av Folkhälsomyndighetens simulering till Julia. Varför? Jo, för att Julia-koden är ca. **300 gånger snabbare** än R-koden. Översättningen är inte färdig, och kan vara inkorrekt. All användning sker på egen risk.
 
-Baserat på: https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/analys-och-prognoser/
-och https://github.com/FohmAnalys/SEIR-model-Stockholm
+Baserat på [Folkhälsomyndighetens modell](https://github.com/FohmAnalys/SEIR-model-Stockholm), vilken är delvis baserad på deras [egna, tidigare analyser](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/analys-och-prognoser/).
+
